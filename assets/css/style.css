@@ -1,0 +1,188 @@
+.header-up .header-left {
+    gap: 15px;
+    margin-top: 7px;
+}
+
+
+
+.header-up .header-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.header-up .header-left .button2 a {
+    color: black;
+
+    border-right: 1px solid rgb(165, 165, 165);
+    padding-right: 10px;
+
+
+}
+
+.header-up .header-left .button3 a {
+    border-right: 1px solid rgb(165, 165, 165);
+    padding-right: 10px;
+    color: rgb(165, 165, 165);
+
+}
+
+.border-bottom {
+    border-top: 1px solid rgb(192, 192, 192);
+    margin-top: 10px;
+   
+
+}
+
+.header-right a {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.header-right {
+    margin-top: 7px;
+    float: right;
+}
+
+.header-right .button1 {
+    margin-right: 15px;
+}
+
+.header-right .button2 a {
+    border-right: 1px solid rgb(173, 173, 173);
+    padding-right: 35px;
+    height: 18px;
+
+}
+
+
+.header-right .button3 {
+    border: 1px solid rgb(170, 170, 170);
+    width: 55px;
+    height: 28px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.header-right .button3 a {
+    padding-left: 10px;
+    font-size: 12px;
+
+}
+
+
+.header-right .button4 {
+    border: 1px solid rgb(170, 170, 170);
+    width: 65px;
+    height: 28px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.header-center .header-left{
+margin-top: 15px;
+}
+
+
+.header-right .button4 i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.header-center .header-left .center-menu ul {
+    display: flex;
+}
+
+.header-center  .header-left .center-menu ul li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+
+
+.header-center  .header-left .center-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.8s;
+
+}
+
+.header-center  .header-left .center-menu ul li a i{
+    transition: all 0.8s;
+
+}
+
+
+.header-center .header-left  .center-menu ul li a:hover{
+    color: red;
+
+}
+
+.header-center .header-left .center-menu ul li:hover a i{
+    rotate: 180deg;
+
+}
+
+.header-center .header-right  {
+    float: right;
+}
+.header-center .header-right .button-bar {
+    width:45px;
+    height: 45px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+
+.header-center .header-right .button-bar a{
+    font-size: 18px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 14px;
+
+
+}
+
+.header-center .header-right .right-menu{
+    margin-top: 5px;
+
+}
+
+
+.header-center .header-right .right-menu a {
+    margin-right: 50px;
+    margin-left: 40px;
+    color: red;
+    border-left: 1px solid rgb(184, 184, 184)  ;
+    padding-left: 20px;
+
+}
+
+.header-center .header-right .right-menu button{
+    width: 120px;
+    height: 40px ;
+    border-radius: 15px;
+    color: red;
+    font-weight: bolder;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+
+}
+
+.header-center .header-right .right-menu button:hover{
+    border: 3px solid red;
+}
+
+
+
