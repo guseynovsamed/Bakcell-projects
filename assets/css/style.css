@@ -1,188 +1,702 @@
 .header-up .header-left {
-    gap: 15px;
-    margin-top: 7px;
+  gap: 15px;
+  margin-top: 7px;
 }
 
-
-
 .header-up .header-left a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 13px;
-
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .header-up .header-left .button2 a {
-    color: black;
-
-    border-right: 1px solid rgb(165, 165, 165);
-    padding-right: 10px;
-
-
+  color: black;
+  border-right: 1px solid rgb(165, 165, 165);
+  padding-right: 10px;
 }
 
 .header-up .header-left .button3 a {
-    border-right: 1px solid rgb(165, 165, 165);
-    padding-right: 10px;
-    color: rgb(165, 165, 165);
-
+  border-right: 1px solid rgb(165, 165, 165);
+  padding-right: 10px;
+  color: rgb(165, 165, 165);
 }
 
 .border-bottom {
-    border-top: 1px solid rgb(192, 192, 192);
-    margin-top: 10px;
-   
-
+  border-top: 1px solid rgb(192, 192, 192);
+  margin-top: 10px;
 }
 
 .header-right a {
-    text-decoration: none;
-    color: rgb(177, 177, 177);
-    font-weight: bold;
-    font-size: 13px;
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+  font-weight: bold;
+  font-size: 13px;
 }
 
-
 .header-right {
-    margin-top: 7px;
-    float: right;
+  margin-top: 7px;
+  float: right;
 }
 
 .header-right .button1 {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .header-right .button2 a {
-    border-right: 1px solid rgb(173, 173, 173);
-    padding-right: 35px;
-    height: 18px;
-
+  border-right: 1px solid rgb(173, 173, 173);
+  padding-right: 35px;
+  height: 18px;
 }
 
-
 .header-right .button3 {
-    border: 1px solid rgb(170, 170, 170);
-    width: 55px;
-    height: 28px;
-    border-radius: 15px;
-    margin-left: 50px;
+  border: 1px solid rgb(170, 170, 170);
+  width: 55px;
+  height: 28px;
+  border-radius: 15px;
+  margin-left: 50px;
 }
 
 .header-right .button3 a {
-    padding-left: 10px;
-    font-size: 12px;
-
+  padding-left: 10px;
+  font-size: 12px;
 }
-
 
 .header-right .button4 {
-    border: 1px solid rgb(170, 170, 170);
-    width: 65px;
-    height: 28px;
-    border-radius: 15px;
-    margin-left: 20px;
+  border: 1px solid rgb(170, 170, 170);
+  width: 65px;
+  height: 28px;
+  border-radius: 15px;
+  margin-left: 20px;
 }
 
-.header-center .header-left{
-margin-top: 15px;
+.header-center .header-left {
+  margin-top: 15px;
 }
-
 
 .header-right .button4 i {
-    margin-left: 10px;
-    margin-top: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
-
 
 .header-center .header-left .center-menu ul {
-    display: flex;
+  display: flex;
 }
 
-.header-center  .header-left .center-menu ul li {
-    margin-left: 25px;
-    list-style: none;
+.header-center .header-left .center-menu ul li {
+  margin-left: 25px;
+  list-style: none;
 }
 
-
-
-.header-center  .header-left .center-menu ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-    transition: all 0.8s;
-
+.header-center .header-left .center-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.8s;
 }
 
-.header-center  .header-left .center-menu ul li a i{
-    transition: all 0.8s;
-
+.header-center .header-left .center-menu ul li a i {
+  transition: all 0.8s;
+  padding-left: 15px;
 }
 
-
-.header-center .header-left  .center-menu ul li a:hover{
-    color: red;
-
+.header-center .header-left .center-menu ul li a:hover {
+  color: red;
 }
 
-.header-center .header-left .center-menu ul li:hover a i{
-    rotate: 180deg;
-
+.header-center .header-left .center-menu ul li:hover a i {
+  rotate: 180deg;
 }
 
-.header-center .header-right  {
-    float: right;
+.header-center .header-right {
+  float: right;
 }
 .header-center .header-right .button-bar {
-    width:45px;
-    height: 45px;
-    background-color: rgb(236, 236, 236);
-    border-radius: 15px;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 15px;
 }
 
-
-.header-center .header-right .button-bar a{
-    font-size: 18px;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 14px;
-
-
+.header-center .header-right .button-bar a {
+  font-size: 18px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 14px;
 }
 
-.header-center .header-right .right-menu{
-    margin-top: 5px;
-
+.header-center .header-right .right-menu {
+  margin-top: 5px;
 }
-
 
 .header-center .header-right .right-menu a {
-    margin-right: 50px;
-    margin-left: 40px;
-    color: red;
-    border-left: 1px solid rgb(184, 184, 184)  ;
-    padding-left: 20px;
-
+  margin-right: 50px;
+  margin-left: 40px;
+  color: red;
+  border-left: 1px solid rgb(184, 184, 184);
+  padding-left: 20px;
 }
 
-.header-center .header-right .right-menu button{
-    width: 120px;
-    height: 40px ;
-    border-radius: 15px;
-    color: red;
-    font-weight: bolder;
-    font-size: 13px;
-    background-color: white;
-    border: none;
-
+.header-center .header-right .right-menu button {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  color: red;
+  font-weight: bolder;
+  font-size: 13px;
+  background-color: white;
+  border: none;
 }
 
-.header-center .header-right .right-menu button:hover{
-    border: 3px solid red;
+.header-center .header-right .right-menu button:hover {
+  border: 3px solid red;
 }
 
+.slider {
+  width: 100%;
+  height: 600px;
+  background-color: red;
+}
 
+.slider .slider-img {
+  float: right;
+  height: 100%;
+  width: 750px;
+}
 
+.slider .slider-img img {
+  height: 100%;
+}
+
+.slider h6 {
+  color: white;
+  font-size: 15px;
+  padding-top: 100px;
+  padding-left: 310px;
+}
+
+.slider h1 {
+  color: white;
+  padding-left: 310px;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.slider button {
+  margin-left: 320px;
+  margin-top: 40px;
+  width: 140px;
+  height: 60px;
+  border-radius: 15px;
+  color: red;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.slider button i {
+  padding-left: 10px;
+}
+
+.slider ul {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 160px;
+}
+
+.slider ul li {
+  list-style: none;
+  padding-left: 45px;
+}
+
+.slider ul li i {
+  font-size: 8px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.slider ul li i:hover {
+  opacity: 1;
+}
+
+#popular .title {
+  margin-top: 90px;
+}
+
+#popular .title h1 i {
+  padding-right: 20px;
+}
+
+#popular .card-balance {
+  gap: 20px;
+  margin-top: 50px;
+}
+#popular .card-balance .card1 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+  transition: all 0.7s;
+}
+
+#popular .card-balance .card1:hover {
+  border: 1px solid red;
+}
+
+#popular .card-balance .card1 h1 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#popular .card-balance .card1 h6 {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: flex;
+  font-size: 14px;
+}
+
+#popular .card-balance .card1 h6 p {
+  background-color: rgb(199, 199, 199);
+  margin-left: 5px;
+  width: 10px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#popular .card-balance .card1 .border-bottom {
+  border-bottom: 1px solid black;
+  width: 380px;
+  margin-left: 25px;
+}
+
+#popular .card-balance .card1 .icon1 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#popular .card-balance .card1 .icon2 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#popular .card-balance .card1 .icon3 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#popular .card-balance .card1 .icon1 .icon-title1 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#popular .card-balance .card1 .icon1 .icon-title1 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#popular .card-balance .card1 .icon1 .icon-title1 h5 {
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 .icon2 .icon-title2 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#popular .card-balance .card1 .icon2 .icon-title2 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#popular .card-balance .card1 .icon2 .icon-title2 h5 {
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 .icon3 .icon-title3 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#popular .card-balance .card1 .icon3 .icon-title3 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#popular .card-balance .card1 .icon3 .icon-title3 h5 {
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 .icon3 .sosial-icon {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+#popular .card-balance .card1 .icon3 .sosial-icon i {
+  margin: 0 !important;
+}
+
+#popular .card-balance .card1 .price {
+  margin-top: 30px;
+}
+
+#popular .card-balance .card1 .price h1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#popular .card-balance .card1 .price h1 i {
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 .price p {
+  padding-top: 31px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 button {
+  width: 350px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 55px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+#popular .card-balance .card2 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+#popular .card-balance .card3 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+#popular .card-balance .card1 .prices {
+  margin-top: 173px;
+}
+
+#popular .card-balance .card1 .prices h1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#popular .card-balance .card1 .prices h1 i {
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#popular .card-balance .card1 .prices p {
+  padding-top: 31px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#esim .esim-area {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+
+#esim .esim-area .esim-title h1 {
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+}
+
+#esim .esim-area .esim-title p {
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-left: 55px;
+  font-weight: bold;
+}
+
+#esim .esim-area .esim-title button {
+  margin-left: 55px;
+  width: 145px;
+  height: 60px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+#esim .esim-area .esim-img img {
+  margin-left: 550px;
+}
+
+#voLTE .esim-area1 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(189, 189, 189);
+  margin-top: 150px;
+  border-radius: 10px;
+}
+
+#voLTE .esim-area1 .esim-title h1 {
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+}
+
+#voLTE .esim-area1 .esim-title p {
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-left: 55px;
+  font-weight: bold;
+}
+
+#voLTE .esim-area1 .esim-title button {
+  margin-left: 55px;
+  width: 145px;
+  height: 60px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#voLTE .esim-area1 .esim-img {
+  height: 100%;
+  width: 600px;
+  margin-left: 400px;
+}
+
+#voLTE .esim-area1 .esim-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#buy-balace .card-balance {
+  gap: 20px;
+  margin-top: 50px;
+}
+#buy-balace .card-balance .card1 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+  transition: all 0.7s;
+}
+
+#buy-balace .card-balance .card1:hover {
+  border: 1px solid red;
+}
+
+#buy-balace .card-balance .card1 h1 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#buy-balace .card-balance .card1 h6 {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: flex;
+  font-size: 14px;
+}
+
+#buy-balace .card-balance .card1 h6 p {
+  background-color: rgb(199, 199, 199);
+  margin-left: 5px;
+  width: 10px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buy-balace .card-balance .card1 .border-bottom {
+  border-bottom: 1px solid black;
+  width: 380px;
+  margin-left: 25px;
+}
+
+#buy-balace .card-balance .card1 .icon1 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#buy-balace .card-balance .card1 .icon2 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#buy-balace .card-balance .card1 .icon3 i {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#buy-balace .card-balance .card1 .icon1 .icon-title1 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#buy-balace .card-balance .card1 .icon1 .icon-title1 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#buy-balace .card-balance .card1 .icon1 .icon-title1 h5 {
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 .icon2 .icon-title2 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#buy-balace .card-balance .card1 .icon2 .icon-title2 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#buy-balace .card-balance .card1 .icon2 .icon-title2 h5 {
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 .icon3 .icon-title3 {
+  margin-left: 30px;
+  justify-content: center;
+}
+
+#buy-balace .card-balance .card1 .icon3 .icon-title3 p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  margin: 0 !important;
+  padding-top: 20px;
+}
+
+#buy-balace .card-balance .card1 .icon3 .icon-title3 h5 {
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 .icon3 .sosial-icon {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+#buy-balace .card-balance .card1 .icon3 .sosial-icon i {
+  margin: 0 !important;
+}
+
+#buy-balace .card-balance .card1 .price {
+  margin-top: 30px;
+}
+
+#buy-balace .card-balance .card1 .price h1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#buy-balace .card-balance .card1 .price h1 i {
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 .price p {
+  padding-top: 31px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 button {
+  width: 350px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 35px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+#buy-balace .card-balance .card2 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+#buy-balace .card-balance .card3 {
+  height: 600px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+#buy-balace .card-balance .card1 .prices {
+  margin-top: 29px;
+}
+
+#buy-balace .card-balance .card1 .prices h1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#buy-balace .card-balance .card1 .prices h1 i {
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#buy-balace .card-balance .card1 .prices p {
+  padding-top: 31px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#buy-balace .title2 {
+  margin-top: 90px;
+}
+
+#popular .title h1 i {
+  padding-right: 20px;
+}
